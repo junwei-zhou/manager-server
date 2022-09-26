@@ -24,8 +24,9 @@ log4js.configure({
         error:{
             type:"dateFile",
             filename:"log/err-log",
-            pattern:"yyyy-mm-dd",
-            alwaysIncludePattern:true
+            // 都统一写到一个文件中去
+            // pattern:"yyyy-mm-dd",
+            // alwaysIncludePattern:true
         }
     },
     categories:{

@@ -1,3 +1,0 @@
-[2022-09-23T17:42:59.799] [ERROR] error - ReferenceError: pp is not defined
-    at D:\gitwork\manager-server\app.js:24:3
-    at async bodyParser (D:\gitwork\manager-server\node_modules\koa-bodyparser\index.js:95:5)
