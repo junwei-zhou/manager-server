@@ -9,7 +9,7 @@ const log4js = require('./utils/log4js')
 
 const index = require('./routes/index')
 const users = require('./routes/users')
-
+const mongoConf = require("./config/db")
 // error handler
 onerror(app)
 

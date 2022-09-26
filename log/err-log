@@ -1,3 +1,153 @@
-[2022-09-23T17:43:01.015] [ERROR] error - ReferenceError: pp is not defined
-    at D:\gitwork\manager-server\app.js:24:3
-    at async bodyParser (D:\gitwork\manager-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-09-26T12:14:06.083] [ERROR] error - ReferenceError: 那你 is not defined
+    at D:\gitwork\manager-server\routes\users.js:6:3
+    at dispatch (D:\gitwork\manager-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\gitwork\manager-server\node_modules\koa-compose\index.js:45:18)
+    at D:\gitwork\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\gitwork\manager-server\node_modules\koa-compose\index.js:44:32)
+    at D:\gitwork\manager-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\gitwork\manager-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\gitwork\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\gitwork\manager-server\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\gitwork\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\gitwork\manager-server\app.js:35:9
+    at dispatch (D:\gitwork\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at views (D:\gitwork\manager-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (D:\gitwork\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at serve (D:\gitwork\manager-server\node_modules\koa-static\index.js:53:15)
+    at async D:\gitwork\manager-server\app.js:23:3
+[2022-09-26T12:14:11.320] [ERROR] error - ReferenceError: 那你 is not defined
+    at D:\gitwork\manager-server\routes\users.js:6:3
+    at dispatch (D:\gitwork\manager-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\gitwork\manager-server\node_modules\koa-compose\index.js:45:18)
+    at D:\gitwork\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\gitwork\manager-server\node_modules\koa-compose\index.js:44:32)
+    at D:\gitwork\manager-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\gitwork\manager-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\gitwork\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\gitwork\manager-server\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\gitwork\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\gitwork\manager-server\app.js:35:9
+    at dispatch (D:\gitwork\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at views (D:\gitwork\manager-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (D:\gitwork\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at serve (D:\gitwork\manager-server\node_modules\koa-static\index.js:53:15)
+    at async D:\gitwork\manager-server\app.js:23:3
+[2022-09-26T12:36:08.147] [ERROR] error - ********** 数据库连接失败 **********
+[2022-09-26T12:39:49.781] [ERROR] error - ********** 数据库连接失败 **********
+[2022-09-26T12:40:04.575] [ERROR] error - ********** 数据库连接失败 **********
+[2022-09-26T12:44:18.998] [ERROR] error - ********** 数据库连接失败 **********
+[2022-09-26T12:44:33.754] [ERROR] error - ********** 数据库连接失败 **********
+[2022-09-26T14:18:06.028] [ERROR] error - TypeError: user.find is not a function
+    at D:\gitwork\manager-server\routes\users.js:10:25
+    at dispatch (D:\gitwork\manager-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\gitwork\manager-server\node_modules\koa-compose\index.js:45:18)
+    at D:\gitwork\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\gitwork\manager-server\node_modules\koa-compose\index.js:44:32)
+    at D:\gitwork\manager-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\gitwork\manager-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\gitwork\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\gitwork\manager-server\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\gitwork\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\gitwork\manager-server\app.js:35:9
+    at dispatch (D:\gitwork\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at views (D:\gitwork\manager-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (D:\gitwork\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at serve (D:\gitwork\manager-server\node_modules\koa-static\index.js:53:15)
+    at async D:\gitwork\manager-server\app.js:23:3
+[2022-09-26T14:19:34.649] [ERROR] error - TypeError: users.find is not a function
+    at D:\gitwork\manager-server\routes\users.js:10:26
+    at dispatch (D:\gitwork\manager-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\gitwork\manager-server\node_modules\koa-compose\index.js:45:18)
+    at D:\gitwork\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\gitwork\manager-server\node_modules\koa-compose\index.js:44:32)
+    at D:\gitwork\manager-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\gitwork\manager-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\gitwork\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\gitwork\manager-server\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\gitwork\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\gitwork\manager-server\app.js:35:9
+    at dispatch (D:\gitwork\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at views (D:\gitwork\manager-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (D:\gitwork\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at serve (D:\gitwork\manager-server\node_modules\koa-static\index.js:53:15)
+    at async D:\gitwork\manager-server\app.js:23:3
+[2022-09-26T14:20:37.887] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'find')
+    at D:\gitwork\manager-server\routes\users.js:10:26
+    at dispatch (D:\gitwork\manager-server\node_modules\koa-compose\index.js:44:32)
+    at next (D:\gitwork\manager-server\node_modules\koa-compose\index.js:45:18)
+    at D:\gitwork\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\gitwork\manager-server\node_modules\koa-compose\index.js:44:32)
+    at D:\gitwork\manager-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\gitwork\manager-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\gitwork\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at dispatch (D:\gitwork\manager-server\node_modules\koa-router\lib\router.js:332:32)
+    at dispatch (D:\gitwork\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at D:\gitwork\manager-server\app.js:35:9
+    at dispatch (D:\gitwork\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at views (D:\gitwork\manager-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (D:\gitwork\manager-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at serve (D:\gitwork\manager-server\node_modules\koa-static\index.js:53:15)
+    at async D:\gitwork\manager-server\app.js:23:3
+[2022-09-26T14:25:31.784] [ERROR] error - MongoServerError: command find requires authentication
+    at Connection.onMessage (D:\gitwork\manager-server\node_modules\mongodb\lib\cmap\connection.js:207:30)
+    at MessageStream.<anonymous> (D:\gitwork\manager-server\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (D:\gitwork\manager-server\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+    at MessageStream._write (D:\gitwork\manager-server\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:336:10)
+    at Socket.ondata (node:internal/streams/readable:754:22)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+[2022-09-26T14:28:46.892] [ERROR] error - ********** 数据库连接失败 **********
+[2022-09-26T14:35:36.536] [ERROR] error - ********** 数据库连接失败 **********
+[2022-09-26T15:06:02.818] [ERROR] error - MongoServerError: not authorized on imooc-manager to execute command { find: "users", filter: {}, projection: {}, lsid: { id: UUID("b0798ab9-e029-42b1-9deb-7bacf19805b3") }, $db: "imooc-manager" }
+    at Connection.onMessage (D:\gitwork\manager-server\node_modules\mongodb\lib\cmap\connection.js:207:30)
+    at MessageStream.<anonymous> (D:\gitwork\manager-server\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (D:\gitwork\manager-server\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+    at MessageStream._write (D:\gitwork\manager-server\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:336:10)
+    at Socket.ondata (node:internal/streams/readable:754:22)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+[2022-09-26T15:10:00.289] [ERROR] error - MongoServerError: not authorized on imooc-manager to execute command { find: "users", filter: {}, projection: {}, lsid: { id: UUID("b0798ab9-e029-42b1-9deb-7bacf19805b3") }, $db: "imooc-manager" }
+    at Connection.onMessage (D:\gitwork\manager-server\node_modules\mongodb\lib\cmap\connection.js:207:30)
+    at MessageStream.<anonymous> (D:\gitwork\manager-server\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (D:\gitwork\manager-server\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+    at MessageStream._write (D:\gitwork\manager-server\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:336:10)
+    at Socket.ondata (node:internal/streams/readable:754:22)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+[2022-09-26T15:16:10.045] [ERROR] error - MongoServerError: not authorized on imooc-manager to execute command { find: "user", filter: {}, projection: {}, lsid: { id: UUID("2db6b194-628f-40ce-ae53-2cfc9f0f51b4") }, $db: "imooc-manager" }
+    at Connection.onMessage (D:\gitwork\manager-server\node_modules\mongodb\lib\cmap\connection.js:207:30)
+    at MessageStream.<anonymous> (D:\gitwork\manager-server\node_modules\mongodb\lib\cmap\connection.js:60:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (D:\gitwork\manager-server\node_modules\mongodb\lib\cmap\message_stream.js:132:20)
+    at MessageStream._write (D:\gitwork\manager-server\node_modules\mongodb\lib\cmap\message_stream.js:33:9)
+    at writeOrBuffer (node:internal/streams/writable:391:12)
+    at _write (node:internal/streams/writable:332:10)
+    at MessageStream.Writable.write (node:internal/streams/writable:336:10)
+    at Socket.ondata (node:internal/streams/readable:754:22)
+    at Socket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:190:23)
+[2022-09-26T15:44:42.017] [ERROR] error - ********** 数据库连接失败 **********
