@@ -36,7 +36,8 @@
         data
       }
     },
-    fail(msg = '', data = '', code = CODE.BUSINESS_ERROR) {
+    fail(data = '', msg = '', code = CODE.BUSINESS_ERROR) {
+      
       return {
         code,
         msg,
